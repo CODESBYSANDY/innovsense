@@ -1,0 +1,38 @@
+body {
+  background-color: #0f172a;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.dashboard {
+  padding: 20px;
+}
+
+.summary-container {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.card {
+  padding: 15px;
+  background-color: #1e293b;
+  border-radius: 8px;
+}
+
+.high { color: red; }
+.medium { color: orange; }
+.low { color: green; }
+
+.alerts-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.alerts-table th,
+.alerts-table td {
+  border: 1px solid #334155;
+  padding: 8px;
+  text-align: center;
+}
