@@ -1,4 +1,4 @@
-pip install uvicorn
+
 from fastapi import FastAPI
 from app.core.database import engine, Base
 from app.api.alert_routes import router as alert_router
